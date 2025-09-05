@@ -1,0 +1,51 @@
+.profile-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #1e1e2f;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+.profile-container p span {
+  font-weight: 600;
+  color: #4cafef;  /* nice blue for the label */
+}   
+.profile-email {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 10px 0;
+  letter-spacing: 0.3px;
+}
+.profile-container:hover {
+  transform: translateY(-4px);
+}
+
+.profile-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4cafef;
+}
+
+.profile-container p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #d1d1d1;
+}
+
+.profile-container p span {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.profile-container .joined-date {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #a1a1a1;
+  font-style: italic;
+}
